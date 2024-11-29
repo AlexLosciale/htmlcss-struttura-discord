@@ -4,10 +4,46 @@
 }
 
 header{
-    display: flex;
     background-color: blue;
     height: 600px;
     border: 1px solid black;
+}
+
+.start{
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    background-color: cadetblue;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.test{
+    background-color: cadetblue;
+    height: 50px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.button{
+    background-color: cadetblue;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black; 
+}
+
+.title{
+    background-color: cadetblue;
+    height: 70%;
+    width: 50%;
+    border: 1px solid black;
+    margin: 5% 25% 5% 25%;
 }
 
 main{
@@ -17,7 +53,7 @@ main{
 }
 
 .container{
-    height: 500px;
+    height: 600px;
     border: 1px solid black;
 }
 
@@ -39,7 +75,7 @@ main{
 
 footer{
     display: flex;
-    background-color: bisque;
+    background-color: rgb(81, 73, 63);
     height: 600px;
     border: 1px solid black;
 }
